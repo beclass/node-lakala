@@ -1,0 +1,27 @@
+{
+  "name": "lakala",
+  "version": "1.0.0",
+  "description": "拉卡拉支付",
+  "main": "./lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beclass/node-lakala-pay.git"
+  },
+  "keywords": [
+    "拉卡拉",
+    "nodejs"
+  ],
+  "author": "lwp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beclass/node-lakala-pay/issues"
+  },
+  "homepage": "https://github.com/beclass/node-lakala-pay#readme",
+  "dependencies": {
+    "urllib": "^2.33.0",
+    "iconv-lite": "^0.4.18"
+  }
+}
