@@ -39,10 +39,10 @@ npm i lakala@latest
 const lakala = require('lakala');
 const config = {
     merchant_id: '商户id',
+    api_url: 'api请求url',
     notify_url: '异步通知url',
     private_key_pem: fs.readFileSync('私钥.pem'),
     public_key_pem: fs.readFileSync('公钥.pem'),
-    sandbox: false,
 };
 const api = lakala.init(config)
 
@@ -52,11 +52,10 @@ const api = lakala.init(config,true)
 
 #### config说明:
 - `merchant_id` - 商户编号(必填)
+- `api_url` - api请求地址(必填)
 - `notify_url` - 支付结果通知回调地址(必填)
   - 可以在初始化的时候传入设为默认值, 不传则需在调用相关API时传入
   - 调用相关API时传入新值则使用新值
-- `sandbox` - 是否沙盒环境(选填)
-  - 可以在初始化的时候传入设为默认值, 不传则默认值为false
 
 
 ## API 列表

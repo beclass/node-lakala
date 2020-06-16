@@ -1,6 +1,6 @@
 {
   "name": "lakala",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "拉卡拉支付",
   "main": "./lib",
   "scripts": {
